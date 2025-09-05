@@ -1,0 +1,8 @@
+Java as the scripting language
+gui editor app
+runner app
+runner app looks at config files to configure and run game (what scripts to load, game info, etc)
+uses ECS
+graphics are done via wrapper lib loaded via macros defined at runtime
+maybe window too?
+start with raylib backend graphics, can use other graphics engines later
