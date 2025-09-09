@@ -1,0 +1,20 @@
+PROJECT engine
+MAIN main.c
+INCLUDE vendor/raylib/include
+INCLUDE vendor/EasyC/include
+LINUX LINK glfw
+LINUX LINK GLU
+LINUX LINK GL
+LINUX LINK pthread
+LINUX LINK m
+LINUX LINK :linux_amdx64_libraylib.a
+WINDOWS LINK shell32
+WINDOWS LINK user32
+WINDOWS LINK opengl32
+WINDOWS LINK gdi32
+WINDOWS LINK winmm
+WINDOWS LINK winpthread
+WINDOWS LINK ws2_32
+WINDOWS LINK :win_x64_libraylib.a
+LIB vendor/raylib/lib
+SOURCE vendor/EasyC/include
